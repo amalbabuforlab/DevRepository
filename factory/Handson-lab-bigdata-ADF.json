@@ -1,0 +1,9 @@
+{
+	"name": "Handson-lab-bigdata-ADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fa264ded-d706-4527-8efb-4c2c374f3f98",
+		"tenantId": "55962d3e-9807-47ee-8b2e-5daf71d3c425"
+	}
+}

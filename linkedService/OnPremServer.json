@@ -1,0 +1,17 @@
+{
+	"name": "OnPremServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\amalvmlab\\Data",
+			"userId": "Developer",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjMWFkZDc0MC0zZDcyLTRkYzEtYmQ3ZC1jN2U0YjVhMTJjODIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SHIRforlab",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
